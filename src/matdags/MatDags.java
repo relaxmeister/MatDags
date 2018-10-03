@@ -16,6 +16,7 @@ public class MatDags {
        // kolla hennes svar på tidigare lektion
 
        String vilketDjur;
+       //hej
 
 
        IPortionsHanteraren Sixten = new Hund("Sixten", 5000);
