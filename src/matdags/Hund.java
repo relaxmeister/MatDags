@@ -17,7 +17,7 @@ public class Hund extends Djur implements IPortionsHanteraren {
     public void printPortion() {
 
        //hundens vikt(g) / 100 = vikten på portionen
-       portion = vikt / 100;
-       JOptionPane.showMessageDialog(null, namn + " vill ha " + portion + "g hundfoder");
+       portion = getVikt() / 100; //antar att jag skulle kunna köra en getVikt från djur osv...
+       JOptionPane.showMessageDialog(null, getNamn() + " vill ha " + portion + "g hundfoder");
     }
 }

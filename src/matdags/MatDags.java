@@ -12,12 +12,8 @@ public class MatDags {
 
     public static void main(String[] args) {
        // Påvisa behärskning av inkapsling och polymorfism
-       // inkapsling s 391 i boken, protected är att föredra (eller inget? egentligen?)
-       // kolla hennes svar på tidigare lektion
 
        String vilketDjur;
-       //hej
-
 
        IPortionsHanteraren Sixten = new Hund("Sixten", 5000);
        IPortionsHanteraren Dogge = new Hund("Dogge", 10000);
@@ -25,6 +21,7 @@ public class MatDags {
        IPortionsHanteraren Ove = new Katt("Ove", 3000);
        IPortionsHanteraren Hypno = new Orm("Hypno", 1000);
 
+       
        vilketDjur = JOptionPane.showInputDialog("Vilket djur ska få mat?"); // anger djurets namn? Sixten direkt?
 
        vilketDjur = vilketDjur.toLowerCase();

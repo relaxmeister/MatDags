@@ -17,6 +17,6 @@ public class Orm extends Djur implements IPortionsHanteraren {
    {
        //ormens portion = oberoende av vikt -> alltid 20g
        portion = 20; // i gram
-       JOptionPane.showMessageDialog(null, namn + " vill ha " + portion + "g ormpellets");
+       JOptionPane.showMessageDialog(null, getNamn() + " vill ha " + portion + "g ormpellets");
    }
 }

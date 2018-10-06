@@ -16,7 +16,7 @@ public class Katt extends Djur implements IPortionsHanteraren {
    public void printPortion()
    {
        //kattens vikt(g) / 150 = vikten på portionen
-       portion = vikt/100;
-       JOptionPane.showMessageDialog(null, namn + " vill ha " + portion + "g kattfoder");
+       portion = getVikt()/100;
+       JOptionPane.showMessageDialog(null, getNamn() + " vill ha " + portion + "g kattfoder");
    }
 }
