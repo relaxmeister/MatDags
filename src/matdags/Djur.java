@@ -6,7 +6,7 @@ package matdags;
 
 
 public abstract class Djur {
-   //attribut som bara har synlighet från subklasser (i detta fall hund,katt och orm)
+   
    private int vikt; // i gram
    protected int portion; // i gram
    private String namn;

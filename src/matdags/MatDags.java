@@ -13,7 +13,6 @@ public class MatDags {
     public static void main(String[] args) {
        // Påvisa behärskning av inkapsling och polymorfism
 
-       String vilketDjur;
 
        IPortionsHanteraren Sixten = new Hund("Sixten", 5000);
        IPortionsHanteraren Dogge = new Hund("Dogge", 10000);
@@ -22,7 +21,7 @@ public class MatDags {
        IPortionsHanteraren Hypno = new Orm("Hypno", 1000);
 
        
-       vilketDjur = JOptionPane.showInputDialog("Vilket djur ska få mat?"); // anger djurets namn? Sixten direkt?
+       String vilketDjur = JOptionPane.showInputDialog("Vilket djur ska få mat?"); // anger djurets namn? Sixten direkt?
 
        vilketDjur = vilketDjur.toLowerCase();
 
